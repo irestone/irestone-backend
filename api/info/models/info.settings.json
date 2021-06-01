@@ -1,0 +1,59 @@
+{
+  "kind": "singleType",
+  "collectionName": "infos",
+  "info": {
+    "name": "info",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "email": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "email",
+      "default": "khan.bifov@gmail.com",
+      "required": true
+    },
+    "github": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "required": true,
+      "default": "https://github.com/irestone"
+    },
+    "twitter": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "default": "https://twitter.com/khanbifov",
+      "required": true
+    },
+    "linkedin": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "default": "https://www.linkedin.com/in/khanbifov/"
+    }
+  }
+}
