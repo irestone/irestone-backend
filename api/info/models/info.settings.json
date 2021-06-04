@@ -54,6 +54,14 @@
       },
       "type": "string",
       "default": "https://www.linkedin.com/in/khanbifov/"
+    },
+    "location": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }
